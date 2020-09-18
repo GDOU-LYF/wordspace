@@ -59,16 +59,6 @@
                 }
             ]
         },
-        {
-            "type": "java",
-            "name": "JAVA",
-            "request": "launch",
-            "cwd": "${workspaceFolder}",
-            "console": "integratedTerminal",
-            "stopOnEntry": false,
-            "args": "",
-            "mainClass": "com.microsoft.app.Main",
-        }
         
     ]
 }
