@@ -5,6 +5,13 @@
     "version": "0.2.0",
     "configurations": [
         {
+            "type": "java",
+            "name": "CodeLens (Launch) - QuickStart",
+            "request": "launch",
+            "mainClass": "Java.QuickStart",
+            "projectName": "wordspace_c9144aab"
+        },
+        {
             "name": "Python",
             "type": "python",
             "request": "launch",
@@ -52,5 +59,16 @@
                 }
             ]
         },
+        {
+            "type": "java",
+            "name": "JAVA",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "integratedTerminal",
+            "stopOnEntry": false,
+            "args": "",
+            "mainClass": "com.microsoft.app.Main",
+        }
+        
     ]
 }
